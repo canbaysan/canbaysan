@@ -31,7 +31,7 @@
 </h2>
 
 <h2 align="center">
-  <img src="https://skillicons.dev/icons?i=js,php,html,css,nodejs,python&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=js,php,html,css,python&theme=dark" />
 </h2>
 
 <h2 align="center">
