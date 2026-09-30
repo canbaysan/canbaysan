@@ -58,7 +58,7 @@
 
 <div align="center">
   
-   <img src="https://komarev.com/ghpvc/?username=canbaysan&label=Profile%20Views&color=18CA1F&style=for-the-badge" alt="Profile Views" />
+   <img src="https://komarev.com/ghpvc/?username=ceua&label=Profile%20Views&color=18CA1F&style=for-the-badge" alt="Profile Views" />
 
 </div>
 
