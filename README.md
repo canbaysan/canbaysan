@@ -1,10 +1,12 @@
 <div align="center">
 
+<img src="./assets/wave-top.svg" width="100%" alt="" />
+
 <img src="./assets/header.svg" width="100%" alt="can baysan" />
 
 <br/><br/>
 
-<img src="./assets/terminal.svg" width="90%" alt="about me" />
+<img src="./assets/terminal-about.svg" width="90%" alt="about me" />
 
 <img src="./assets/divider.svg" width="100%" />
 
