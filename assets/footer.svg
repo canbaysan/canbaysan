@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140" role="img" aria-label="Thanks for visiting">
-  <title>Thanks for visiting</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="80" viewBox="0 60 1000 80" role="img" aria-label="Footer">
+  <title>Footer</title>
   <defs>
     <linearGradient id="w" x1="0" x2="1">
       <stop offset="0" stop-color="#18CA1F"/><stop offset=".5" stop-color="#302b63"/><stop offset="1" stop-color="#a855f7"/>
@@ -15,7 +15,6 @@
     @keyframes wave { to { transform: translateX(-200px); } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
-  <text x="500" y="38" text-anchor="middle" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="18" letter-spacing="3" fill="url(#t)">thanks for stopping by</text>
   <path class="w2" opacity=".35" fill="url(#w)" d="M0 90 C150 60 300 120 450 90 S750 60 900 90 S1100 120 1200 90 V140 H0Z"/>
   <path class="w1" opacity=".7" fill="url(#w)" d="M0 105 C150 80 300 130 450 105 S750 80 900 105 S1100 130 1200 105 V140 H0Z"/>
 </svg>
