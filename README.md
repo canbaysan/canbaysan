@@ -40,4 +40,6 @@
 
 <img src="https://komarev.com/ghpvc/?username=canbaysan&label=profile%20views&color=18CA1F&style=flat-square" />
 
+<img src="./assets/footer.svg" width="100%" alt="thanks for visiting" />
+
 </div>
