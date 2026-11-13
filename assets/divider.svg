@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="12" viewBox="0 0 1000 12">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="12" viewBox="0 0 1000 12" role="img" aria-label="Section divider">
+  <title>Section divider</title>
   <defs>
     <linearGradient id="g" x1="0" x2="1" spreadMethod="repeat">
       <stop offset="0" stop-color="#18CA1F" stop-opacity="0"/>
