@@ -32,6 +32,6 @@
   <img src="https://lanyard.cnrad.dev/api/234739605071462410?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&borderRadius=16px" width="460" alt="Discord presence" />
 </a>
 
-<img src="./assets/footer.svg" width="100%" alt="" />
+<img src="./assets/footer-wave.svg" width="100%" alt="" />
 
 </div>
