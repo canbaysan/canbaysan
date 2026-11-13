@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="280" viewBox="0 0 860 280">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="280" viewBox="0 0 860 280" role="img" aria-label="My daily toolkit: ChatGPT, Claude, Copilot">
+  <title>My daily toolkit: ChatGPT, Claude, Copilot</title>
   <defs>
     <linearGradient id="t" x1="0" x2="1" spreadMethod="repeat">
       <stop offset="0" stop-color="#18CA1F"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#18CA1F"/>
@@ -13,6 +14,8 @@
     @keyframes pulse { 50% { transform: scale(1.5); opacity: .5; } }
     .chip { animation: chip 3s ease-in-out infinite; }
     @keyframes chip { 50% { stroke-opacity: 1; } }
+  
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } .name, .avg, .tag { opacity: 1 !important; } }
   </style>
 
   <rect width="860" height="280" rx="16" fill="#0d1117"/>
