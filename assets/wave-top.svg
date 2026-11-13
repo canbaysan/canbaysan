@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="80" viewBox="0 60 1000 80" role="img" aria-label="Top wave">
+  <title>Top wave</title>
+  <defs>
+    <linearGradient id="w" x1="0" x2="1">
+      <stop offset="0" stop-color="#18CA1F"/><stop offset=".5" stop-color="#302b63"/><stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" x2="1" spreadMethod="repeat">
+      <stop offset="0" stop-color="#18CA1F"/><stop offset=".5" stop-color="#F0FF32"/><stop offset="1" stop-color="#18CA1F"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .w1 { animation: wave 8s ease-in-out infinite alternate; }
+    .w2 { animation: wave 11s ease-in-out infinite alternate-reverse; }
+    @keyframes wave { to { transform: translateX(-200px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <g transform="translate(0 200) scale(1 -1)">
+  <path class="w2" opacity=".35" fill="url(#w)" d="M0 90 C150 60 300 120 450 90 S750 60 900 90 S1100 120 1200 90 V140 H0Z"/>
+  <path class="w1" opacity=".7" fill="url(#w)" d="M0 105 C150 80 300 130 450 105 S750 80 900 105 S1100 130 1200 105 V140 H0Z"/>
+</g>
+</svg>
