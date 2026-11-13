@@ -4,7 +4,7 @@
 
 <br/><br/>
 
-<img src="https://github.com/ceua.png" width="120" style="border-radius:50%" alt="avatar" />
+<img src="https://github.com/canbaysan.png" width="120" style="border-radius:50%" alt="avatar" />
 
 <br/><br/>
 
@@ -24,8 +24,8 @@
 
 ### 📊 stats
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ceua&show_icons=true&hide_border=true&bg_color=0d1117&title_color=18CA1F&icon_color=F0FF32&text_color=c9d1d9" />
-<img height="165" src="https://streak-stats.demolab.com?user=ceua&hide_border=true&background=0d1117&ring=18CA1F&fire=F0FF32&currStreakLabel=18CA1F&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=canbaysan&show_icons=true&hide_border=true&bg_color=0d1117&title_color=18CA1F&icon_color=F0FF32&text_color=c9d1d9" />
+<img height="165" src="https://streak-stats.demolab.com?user=canbaysan&hide_border=true&background=0d1117&ring=18CA1F&fire=F0FF32&currStreakLabel=18CA1F&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
 
 <img src="./assets/divider.svg" width="100%" />
 
@@ -37,6 +37,6 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=ceua&label=profile%20views&color=18CA1F&style=flat-square" />
+<img src="https://komarev.com/ghpvc/?username=canbaysan&label=profile%20views&color=18CA1F&style=flat-square" />
 
 </div>
