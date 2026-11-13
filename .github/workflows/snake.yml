@@ -35,7 +35,7 @@ jobs:
       - name: Wrap snake in card
         run: sudo python3 .github/scripts/wrap_snake.py dist/snake.svg dist/snake-card.svg
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
