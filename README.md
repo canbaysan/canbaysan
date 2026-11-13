@@ -8,38 +8,30 @@
 
 <img src="./assets/divider.svg" width="100%" />
 
-<img src="./assets/ai.svg" width="90%" alt="AI powered" />
+<img src="./assets/ai.svg" width="90%" alt="my daily toolkit" />
 
 <img src="./assets/divider.svg" width="100%" />
 
-### tech stack
-
-<img src="https://skillicons.dev/icons?i=js,ts,php,python,html,css,vscode,git,github,ubuntu&theme=dark&perline=10" />
+<img src="./assets/stack.svg" width="90%" alt="tech stack" />
 
 <img src="./assets/divider.svg" width="100%" />
 
-### stats
+<img src="./assets/label-stats.svg" width="90%" alt="my stats" />
 
-<img height="165" src="https://streak-stats.demolab.com?user=canbaysan&hide_border=true&background=0d1117&ring=18CA1F&fire=F0FF32&currStreakLabel=18CA1F&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" />
-
-<img src="./assets/divider.svg" width="100%" />
-
-### contributions
-
-<img src="https://raw.githubusercontent.com/canbaysan/canbaysan/output/snake.svg" width="90%" alt="contribution snake" />
+<img src="https://streak-stats.demolab.com?user=canbaysan&background=0d1117&border=30363d&border_radius=16&ring=18CA1F&fire=F0FF32&currStreakLabel=18CA1F&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff&card_width=860" width="90%" alt="streak stats" />
 
 <img src="./assets/divider.svg" width="100%" />
 
-### discord
+<img src="https://raw.githubusercontent.com/canbaysan/canbaysan/output/snake-card.svg" width="90%" alt="contribution snake" />
+
+<img src="./assets/divider.svg" width="100%" />
+
+<img src="./assets/label-discord.svg" width="90%" alt="right now on discord" />
 
 <a href="https://discord.com/users/234739605071462410">
-  <img src="https://lanyard.cnrad.dev/api/234739605071462410?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&borderRadius=16px" width="420" alt="Discord Presence" />
+  <img src="https://lanyard.cnrad.dev/api/234739605071462410?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&borderRadius=16px" width="460" alt="Discord presence" />
 </a>
 
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=canbaysan&label=profile%20views&color=18CA1F&style=flat-square" />
-
-<img src="./assets/footer.svg" width="100%" alt="thanks for visiting" />
+<img src="./assets/footer.svg" width="100%" alt="" />
 
 </div>
