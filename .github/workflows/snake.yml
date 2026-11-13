@@ -15,18 +15,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: .github/scripts
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg?palette=github-dark&color_snake=#18CA1F&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      - uses: actions/checkout@v4
-        with:
-          sparse-checkout: .github/scripts
-
       - name: Wrap snake in card
-        run: python3 .github/scripts/wrap_snake.py dist/snake.svg dist/snake-card.svg
+        run: sudo python3 .github/scripts/wrap_snake.py dist/snake.svg dist/snake-card.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
