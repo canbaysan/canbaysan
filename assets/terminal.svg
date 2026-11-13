@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="400" viewBox="0 0 860 400" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="18">
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1">
+      <stop offset="0" stop-color="#18CA1F"/><stop offset=".5" stop-color="#F0FF32"/><stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="40" y="80" height="32" width="0"><animate attributeName="width" to="400" begin="0.6s" dur="0.7s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="150" height="32" width="0"><animate attributeName="width" to="400" begin="2.2s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="220" height="32" width="0"><animate attributeName="width" to="400" begin="4s" dur="0.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="290" height="32" width="0"><animate attributeName="width" to="400" begin="5.8s" dur="0.8s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <style>
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .shine { animation: sh 4s linear infinite; }
+    @keyframes sh { from { transform: translateX(-860px); } to { transform: translateX(860px); } }
+  </style>
+
+  <rect width="860" height="400" rx="16" fill="#0d1117"/>
+  <rect x="1" y="1" width="858" height="398" rx="15" fill="none" stroke="#30363d" stroke-width="2"/>
+  <rect x="0" y="0" width="860" height="44" rx="16" fill="#161b22"/>
+  <rect x="0" y="30" width="860" height="14" fill="#161b22"/>
+  <rect x="0" y="43" width="860" height="2" fill="url(#bar)"/>
+  <rect class="shine" x="0" y="43" width="200" height="2" fill="#ffffff" opacity=".7"/>
+  <circle cx="26" cy="22" r="7" fill="#ff5f56"/><circle cx="50" cy="22" r="7" fill="#ffbd2e"/><circle cx="74" cy="22" r="7" fill="#27c93f"/>
+  <text x="430" y="28" text-anchor="middle" font-size="14" fill="#8b949e">can@github: ~</text>
+
+  <!-- 1 -->
+  <g clip-path="url(#c1)"><text x="40" y="102"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> whoami</tspan></text></g>
+  <text x="40" y="132" fill="#c9d1d9" opacity="0">can baysan — web developer from hawaii 🌺<set attributeName="opacity" to="1" begin="1.5s" fill="freeze"/></text>
+
+  <!-- 2 -->
+  <g clip-path="url(#c2)"><text x="40" y="172"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> cat stack.txt</tspan></text></g>
+  <text x="40" y="202" fill="#c9d1d9" opacity="0">javascript · typescript · php · python · html · css<set attributeName="opacity" to="1" begin="3.3s" fill="freeze"/></text>
+
+  <!-- 3 -->
+  <g clip-path="url(#c3)"><text x="40" y="242"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> ai --status</tspan></text></g>
+  <text x="40" y="272" fill="#c9d1d9" opacity="0"><tspan fill="#F0FF32">✔</tspan> ChatGPT   <tspan fill="#F0FF32">✔</tspan> Claude   <tspan fill="#F0FF32">✔</tspan> Copilot   <tspan fill="#a855f7">→ shipping 10x faster</tspan><set attributeName="opacity" to="1" begin="5s" fill="freeze"/></text>
+
+  <!-- 4 -->
+  <g clip-path="url(#c4)"><text x="40" y="312"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> echo $motto</tspan></text></g>
+  <text x="40" y="342" fill="#c9d1d9" opacity="0">"if it's repetitive, I script it. if it's hard, I prompt it."<set attributeName="opacity" to="1" begin="6.8s" fill="freeze"/></text>
+
+  <!-- cursor -->
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="7.4s" fill="freeze"/>
+    <text x="40" y="370" fill="#18CA1F" font-size="16">❯</text>
+    <rect class="cur" x="60" y="356" width="10" height="18" fill="#18CA1F"/>
+  </g>
+</svg>

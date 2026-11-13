@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="280" viewBox="0 0 860 280">
+  <defs>
+    <linearGradient id="t" x1="0" x2="1" spreadMethod="repeat">
+      <stop offset="0" stop-color="#18CA1F"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#18CA1F"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .ln { stroke-dasharray: 6 10; animation: flow 1.2s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -32; } }
+    .n { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 50% { transform: scale(1.5); opacity: .5; } }
+    .chip { animation: chip 3s ease-in-out infinite; }
+    @keyframes chip { 50% { stroke-opacity: 1; } }
+  </style>
+
+  <rect width="860" height="280" rx="16" fill="#0d1117"/>
+  <rect x="1" y="1" width="858" height="278" rx="15" fill="none" stroke="#30363d" stroke-width="2"/>
+
+  <!-- left network -->
+  <g stroke="#18CA1F" stroke-opacity=".5" stroke-width="1.5" fill="none">
+    <path class="ln" d="M60 70L150 110M60 70L150 170M60 140L150 110M60 140L150 170M60 210L150 110M60 210L150 170M150 110L230 140M150 170L230 140"/>
+  </g>
+  <g fill="#18CA1F" filter="url(#glow)">
+    <circle class="n" cx="60" cy="70" r="6"/>
+    <circle class="n" cx="60" cy="140" r="6" style="animation-delay:.4s"/>
+    <circle class="n" cx="60" cy="210" r="6" style="animation-delay:.8s"/>
+    <circle class="n" cx="150" cy="110" r="7" style="animation-delay:1.2s"/>
+    <circle class="n" cx="150" cy="170" r="7" style="animation-delay:1.6s"/>
+    <circle class="n" cx="230" cy="140" r="8" fill="#F0FF32" style="animation-delay:2s"/>
+  </g>
+
+  <!-- right network -->
+  <g stroke="#a855f7" stroke-opacity=".55" stroke-width="1.5" fill="none">
+    <path class="ln" d="M630 140L710 110M630 140L710 170M710 110L800 70M710 110L800 140M710 110L800 210M710 170L800 70M710 170L800 140M710 170L800 210"/>
+  </g>
+  <g fill="#a855f7" filter="url(#glow)">
+    <circle class="n" cx="630" cy="140" r="8" fill="#F0FF32" style="animation-delay:.2s"/>
+    <circle class="n" cx="710" cy="110" r="7" style="animation-delay:.6s"/>
+    <circle class="n" cx="710" cy="170" r="7" style="animation-delay:1s"/>
+    <circle class="n" cx="800" cy="70" r="6" style="animation-delay:1.4s"/>
+    <circle class="n" cx="800" cy="140" r="6" style="animation-delay:1.8s"/>
+    <circle class="n" cx="800" cy="210" r="6" style="animation-delay:2.2s"/>
+  </g>
+
+  <!-- center -->
+  <text x="430" y="92" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="14" letter-spacing="4" fill="#8b949e">🤖 POWERED BY</text>
+  <text x="430" y="142" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#t)">AI + me</text>
+  <text x="430" y="172" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="15" fill="#c9d1d9">prompt → code → ship 🚀</text>
+
+  <g font-family="'Fira Code', Consolas, monospace" font-size="14" text-anchor="middle">
+    <rect class="chip" x="282" y="196" width="88" height="30" rx="15" fill="#161b22" stroke="#18CA1F" stroke-opacity=".3" stroke-width="1.5"/>
+    <text x="326" y="216" fill="#e6edf3">ChatGPT</text>
+    <rect class="chip" x="386" y="196" width="88" height="30" rx="15" fill="#161b22" stroke="#F0FF32" stroke-opacity=".3" stroke-width="1.5" style="animation-delay:1s"/>
+    <text x="430" y="216" fill="#e6edf3">Claude</text>
+    <rect class="chip" x="490" y="196" width="88" height="30" rx="15" fill="#161b22" stroke="#a855f7" stroke-opacity=".3" stroke-width="1.5" style="animation-delay:2s"/>
+    <text x="534" y="216" fill="#e6edf3">Copilot</text>
+  </g>
+</svg>
