@@ -24,6 +24,12 @@
 
 <img src="./assets/divider.svg" width="100%" />
 
+### contributions
+
+<img src="https://raw.githubusercontent.com/canbaysan/canbaysan/output/snake.svg" width="90%" alt="contribution snake" />
+
+<img src="./assets/divider.svg" width="100%" />
+
 ### discord
 
 <a href="https://discord.com/users/234739605071462410">
