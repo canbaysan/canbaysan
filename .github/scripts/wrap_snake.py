@@ -9,10 +9,12 @@ vb = re.search(r'viewBox="([^"]+)"', open_tag)
 if vb:
     viewbox = vb.group(1)
 else:
-    w = re.search(r'width="([\d.]+)', open_tag).group(1)
-    h = re.search(r'height="([\d.]+)', open_tag).group(1)
-    viewbox = f"0 0 {w} {h}"
-vx, vy, vw, vh = map(float, viewbox.split())
+    w = re.search(r'width="([\d.]+)', open_tag)
+    h = re.search(r'height="([\d.]+)', open_tag)
+    if not (w and h):
+        sys.exit(f"{src}: svg has neither viewBox nor numeric width/height")
+    viewbox = f"0 0 {w.group(1)} {h.group(1)}"
+vx, vy, vw, vh = map(float, viewbox.replace(",", " ").split())
 inner_w = 800
 inner_h = round(inner_w * vh / vw)
 top = 80
