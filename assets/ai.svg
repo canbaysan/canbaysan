@@ -45,9 +45,9 @@
   </g>
 
   <!-- center -->
-  <text x="430" y="92" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="14" letter-spacing="4" fill="#8b949e">🤖 POWERED BY</text>
-  <text x="430" y="142" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#t)">AI + me</text>
-  <text x="430" y="172" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="15" fill="#c9d1d9">prompt → code → ship 🚀</text>
+  <text x="430" y="92" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="14" letter-spacing="4" fill="#8b949e">MY DAILY TOOLKIT</text>
+  <text x="430" y="142" text-anchor="middle" font-family="'Segoe UI', Ubuntu, Arial, sans-serif" font-size="44" font-weight="800" fill="url(#t)">work smarter</text>
+  <text x="430" y="172" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="15" fill="#c9d1d9">prompt → code → ship</text>
 
   <g font-family="'Fira Code', Consolas, monospace" font-size="14" text-anchor="middle">
     <rect class="chip" x="282" y="196" width="88" height="30" rx="15" fill="#161b22" stroke="#18CA1F" stroke-opacity=".3" stroke-width="1.5"/>

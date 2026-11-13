@@ -26,15 +26,15 @@
 
   <!-- 1 -->
   <g clip-path="url(#c1)"><text x="40" y="102"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> whoami</tspan></text></g>
-  <text x="40" y="132" fill="#c9d1d9" opacity="0">can baysan — web developer from hawaii 🌺<set attributeName="opacity" to="1" begin="1.5s" fill="freeze"/></text>
+  <text x="40" y="132" fill="#c9d1d9" opacity="0">can baysan — web developer from hawaii<set attributeName="opacity" to="1" begin="1.5s" fill="freeze"/></text>
 
   <!-- 2 -->
   <g clip-path="url(#c2)"><text x="40" y="172"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> cat stack.txt</tspan></text></g>
   <text x="40" y="202" fill="#c9d1d9" opacity="0">javascript · typescript · php · python · html · css<set attributeName="opacity" to="1" begin="3.3s" fill="freeze"/></text>
 
   <!-- 3 -->
-  <g clip-path="url(#c3)"><text x="40" y="242"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> ai --status</tspan></text></g>
-  <text x="40" y="272" fill="#c9d1d9" opacity="0"><tspan fill="#F0FF32">✔</tspan> ChatGPT   <tspan fill="#F0FF32">✔</tspan> Claude   <tspan fill="#F0FF32">✔</tspan> Copilot   <tspan fill="#a855f7">→ shipping 10x faster</tspan><set attributeName="opacity" to="1" begin="5s" fill="freeze"/></text>
+  <g clip-path="url(#c3)"><text x="40" y="242"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> ai --tools</tspan></text></g>
+  <text x="40" y="272" fill="#c9d1d9" opacity="0"><tspan fill="#F0FF32">✓</tspan> ChatGPT   <tspan fill="#F0FF32">✓</tspan> Claude   <tspan fill="#F0FF32">✓</tspan> Copilot   <tspan fill="#a855f7">→ for faster workflow</tspan><set attributeName="opacity" to="1" begin="5s" fill="freeze"/></text>
 
   <!-- 4 -->
   <g clip-path="url(#c4)"><text x="40" y="312"><tspan fill="#18CA1F">❯</tspan><tspan fill="#ffffff"> echo $motto</tspan></text></g>
