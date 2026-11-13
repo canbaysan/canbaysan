@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=can%20%F0%9F%8C%9F&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=can baysan%20%F0%9F%8C%9F&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=fff" alt="Header" />
 </div>
 
 ---
